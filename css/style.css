@@ -1,0 +1,50 @@
+body{
+    background-color: #ededed;
+    margin: 0;
+}
+
+.cabecero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 0 3rem;
+    box-shadow: 0 2px 5px #868686;
+}
+
+.logo{
+    height: 5rem;
+}
+
+.icono{
+    color: #c9ab00;
+}
+
+.icono:hover{
+    cursor:pointer;
+}
+
+.contenedor-menu{
+    margin: 0;
+    background-color: #ffffff;
+}
+
+.contenedor_menu--lista{
+    margin: 0;
+    list-style-type:none;
+    padding-bottom: 1rem;
+}
+
+.elemento{
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.elemento:hover{
+    cursor:pointer;
+}
+
+.ocultar{
+    display: none;
+    transition: all 500ms;
+}
